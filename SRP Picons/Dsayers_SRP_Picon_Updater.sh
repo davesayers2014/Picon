@@ -14,7 +14,7 @@ echo 'Standard SRP Picons downloading - Please Wait'
 opkg install https://github.com/davesayers2014/Picon/blob/master/enigma2-plugin-picons-snp-full.100x60-86x46.light.on.transparent_2017-05-05--23-44-42_all.ipk?raw=true --force-depends >/dev/null 2>&1
 echo 'Standard SRP Picons being moved into correct position - Please Wait'
 mv -f /picon /hdd/
-echo 'SkyQ SNP Picons downloading - Please Wait'
+echo 'SkyQ SRP Picons downloading - Please Wait'
 opkg install https://github.com/davesayers2014/Picon/blob/master/enigma2-plugin-picons-snp-full.220x132-190x102.light.on.transparent_2017-05-05--23-44-42_all.ipk?raw=true --force-depends >/dev/null 2>&1
 echo 'SkyQ SRP Picons being moved into correct position - Please Wait'
 mv -f /picon /hdd/SkyQ
