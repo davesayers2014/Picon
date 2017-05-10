@@ -1,8 +1,8 @@
 #Remove Existing Picons
 echo 'Cleaning up existing Picons - Please Wait'
 sleep 4
-opkg remove enigma2-plugin-picons-snp-full.100x60-86x46.light.on.transparent --force-remove >/dev/null 2>&1
-opkg remove enigma2-plugin-picons-snp-full.220x132-190x102.light.on.transparent --force-remove >/dev/null 2>&1
+opkg remove enigma2-plugin-picons-srp-full.100x60-86x46.light.on.transparent --force-remove >/dev/null 2>&1
+opkg remove enigma2-plugin-picons-srp-full.220x132-190x102.light.on.transparent --force-remove >/dev/null 2>&1
 rm -rv /media/hdd/SkyQ >/dev/null 2>&1
 rm -rv /media/hdd/picons >/dev/null 2>&1
 rm -rv /media/hdd/picon >/dev/null 2>&1
