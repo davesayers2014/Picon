@@ -1,6 +1,6 @@
 #!/bin/sh
 echo '###########################'
-echo '# DAYERS SRP PICON UPDATER#'
+echo '# DSAYERS SRP PICON UPDATER#'
 echo '###########################'
 echo $LINE
 echo 'OUR LATEST PICONS JUST GOT BETTER'
