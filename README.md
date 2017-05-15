@@ -1,6 +1,6 @@
 # Picon updater script
 
-Plugins to download and run scripts to download picons and places them in hdd and hdd/SkyQ folders
+Plugins to download and run scripts to download Ocram's light on transparent picons from my GitHub branch and places them in hdd (100x60 picons) and hdd/SkyQ (220x132 picons)
 
 Download the plugin you want to use:
 
@@ -37,6 +37,8 @@ Reboot box.
 ######################################################################################################################
 
 Before running the plugin we need to update wget 
+
+Thanks to kiddac for the update wget script.
 
 Download https://github.com/davesayers2014/Picon/blob/master/run-me-first.zip?raw=true
 
