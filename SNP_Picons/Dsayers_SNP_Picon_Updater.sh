@@ -30,7 +30,7 @@ echo $LINE
 #Download and unpack Standard SNP Picons
 echo 'STANDARD SNP PICONS DOWNLOADING - PLEASE WAIT'
 echo $LINE
-opkg install https://github.com/davesayers2014/Picon/blob/master/SNP_Picons/enigma2-plugin-picons-snp-full.100x60-86x46.light.on.transparent_2017-05-14--14-47-01_all.ipk?raw=true --force-depends >/dev/null 2>&1
+opkg install https://github.com/davesayers2014/Picon/blob/master/SNP_Picons/enigma2-plugin-picons-snp-full.100x60-86x46.light.on.transparent_2017-05-15--12-02-34_all.ipk?raw=true --force-depends >/dev/null 2>&1
 echo 'STANDARD SNP PICONS BEING MOVED INTO CORRECT POSITION - PLEASE WAIT'
 mv -f /picon /hdd/
 echo $LINE
@@ -39,7 +39,7 @@ echo $LINE
 #Download and unpack SkyQ SNP Picons
 echo 'SkyQ SNP PICONS DOWNLOADING - PLEASE WAIT'
 echo $LINE
-opkg install https://github.com/davesayers2014/Picon/blob/master/SNP_Picons/enigma2-plugin-picons-snp-full.220x132-190x102.light.on.transparent_2017-05-14--14-47-01_all.ipk?raw=true --force-depends >/dev/null 2>&1
+opkg install https://github.com/davesayers2014/Picon/blob/master/SNP_Picons/enigma2-plugin-picons-snp-full.220x132-190x102.light.on.transparent_2017-05-15--12-02-34_all.ipk?raw=true --force-depends >/dev/null 2>&1
 echo 'SkyQ SNP PICONS BEING MOVED INTO CORRECT POSITION - PLEASE WAIT'
 mv -f /picon /hdd/SkyQ
 sleep 4
