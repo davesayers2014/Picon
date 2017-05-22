@@ -18,7 +18,7 @@ echo $LINE
 echo $LINE
 echo 'CLEANING UP EXISTING PICONS - PLEASE WAIT'
 opkg remove enigma2-plugin-picons-srp-full.100x60-86x46.light.on.transparent --force-remove >/dev/null 2>&1
-opkg remove enigma2-plugin-picons-srp-full.220x132-190x102.light.on.transparent --force-remove >/dev/null 2>&1
+opkg remove enigma2-plugin-picons-srp-full.220x132-220x132.light.on.transparent --force-remove >/dev/null 2>&1
 rm -rv /media/hdd/SkyQ >/dev/null 2>&1
 rm -rv /media/hdd/picons >/dev/null 2>&1
 rm -rv /media/hdd/picon >/dev/null 2>&1
@@ -30,7 +30,7 @@ echo $LINE
 #Download and unpack Channel SRP Picons
 echo 'STANDARD SRP PICONS DOWNLOADING - PLEASE WAIT'
 echo $LINE
-opkg install https://github.com/davesayers2014/Picon/blob/davesayers2014-patch-1/SRP%20Picons/enigma2-plugin-picons-srp-full.100x60-86x46.light.on.transparent_2017-05-17--19-06-06_all.ipk?raw=true --force-depends >/dev/null 2>&1
+opkg install https://github.com/davesayers2014/Picon/blob/master/SRP%20Picons/enigma2-plugin-picons-srp-full.100x60-86x46.light.on.transparent_2017-05-21--18-36-13_all.ipk?raw=true --force-depends >/dev/null 2>&1
 echo 'STANDARD SRP PICONS BEING MOVED INTO CORRECT POSITION - PLEASE WAIT'
 mv -f /picon /hdd/
 echo $LINE
@@ -39,7 +39,7 @@ echo $LINE
 #Download and unpack SkyQ SRP Picons
 echo 'SkyQ SRP Picons downloading - Please Wait'
 echo $LINE
-opkg install https://github.com/davesayers2014/Picon/blob/davesayers2014-patch-1/SRP%20Picons/enigma2-plugin-picons-srp-full.220x132-220x132.light.on.transparent_2017-05-17--19-06-06_all.ipk?raw=true --force-depends >/dev/null 2>&1
+opkg install https://github.com/davesayers2014/Picon/blob/master/SRP%20Picons/enigma2-plugin-picons-srp-full.220x132-220x132.light.on.transparent_2017-05-21--18-36-13_all.ipk?raw=true --force-depends >/dev/null 2>&1
 echo 'SkyQ SRP PICONS BEING MOVED INTO CORRECT POSITION - PLEASE WAIT'
 mv -f /picon /hdd/SkyQ
 sleep 4
