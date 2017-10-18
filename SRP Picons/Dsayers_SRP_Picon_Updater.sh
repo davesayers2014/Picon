@@ -22,6 +22,7 @@ opkg remove enigma2-plugin-picons-srp-full.220x132-220x132.light.on.transparent 
 rm -rv /media/hdd/SkyQ >/dev/null 2>&1
 rm -rv /media/hdd/picons >/dev/null 2>&1
 rm -rv /media/hdd/picon >/dev/null 2>&1
+rm -rv /media/hdd/var >/dev/null 2>&1
 rm -rv /picon >/dev/null 2>&1
 mkdir -p /media/hdd/SkyQ
 sleep 2
