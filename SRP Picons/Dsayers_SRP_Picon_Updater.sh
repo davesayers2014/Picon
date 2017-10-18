@@ -30,7 +30,7 @@ echo $LINE
 #Download and unpack Channel SRP Picons
 echo 'STANDARD SRP PICONS DOWNLOADING - PLEASE WAIT'
 echo $LINE
-opkg install https://github.com/davesayers2014/Picon/blob/master/SRP%20Picons/enigma2-plugin-picons-srp-full.100x60-86x46.light.on.transparent_2017-10-16--20-04-10_all.ipkk?raw=true --add-dest hdd:/media/hdd -d hdd --force-depends >/dev/null 2>&1
+opkg install https://github.com/davesayers2014/Picon/blob/master/SRP%20Picons/enigma2-plugin-picons-srp-full.100x60-86x46.light.on.transparent_2017-10-16--20-04-10_all.ipk?raw=true?raw=true --add-dest hdd:/media/hdd -d hdd --force-depends >/dev/null 2>&1
 echo $LINE
 echo $LINE
 
