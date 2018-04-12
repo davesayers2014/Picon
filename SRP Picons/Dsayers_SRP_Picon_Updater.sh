@@ -31,14 +31,14 @@ echo $LINE
 #Download and unpack Channel SRP Picons
 echo 'STANDARD SRP PICONS DOWNLOADING - PLEASE WAIT'
 echo $LINE
-opkg install https://github.com/davesayers2014/Picon/blob/master/SRP%20Picons/enigma2-plugin-picons-srp-full.100x60-86x46.light.on.transparent_2018-03-18--18-07-28_all.ipk?raw=true --add-dest hdd:/media/hdd -d hdd --force-depends >/dev/null 2>&1
+opkg install https://github.com/davesayers2014/Picon/blob/master/SRP%20Picons/enigma2-plugin-picons-srp-full.100x60-86x46.light.on.transparent_2018-04-06--01-52-39_all.ipk?raw=true --add-dest hdd:/media/hdd -d hdd --force-depends >/dev/null 2>&1
 echo $LINE
 echo $LINE
 
 #Download and unpack SkyQ SRP Picons
 echo 'SkyQ SRP Picons downloading - Please Wait'
 echo $LINE
-opkg install https://github.com/davesayers2014/Picon/blob/master/SRP%20Picons/enigma2-plugin-picons-srp-full.220x132-220x132.light.on.transparent_2018-03-18--18-07-28_all.ipk?raw=true --add-dest hdd:/media/hdd/SkyQ -d hdd --force-depends >/dev/null 2>&1
+opkg install https://github.com/davesayers2014/Picon/blob/master/SRP%20Picons/enigma2-plugin-picons-srp-full.220x132-220x132.light.on.transparent_2018-04-06--01-52-39_all.ipk?raw=true --add-dest hdd:/media/hdd/SkyQ -d hdd --force-depends >/dev/null 2>&1
 echo $LINE
 echo 'OK - All DONE'
 exit 1
