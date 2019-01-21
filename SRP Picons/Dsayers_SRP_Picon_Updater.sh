@@ -1,4 +1,5 @@
 #!/bin/sh
+echo "check_certificate = off" >> ~/.wgetrc
 echo '############################'
 echo '# DSAYERS SRP PICON UPDATER#'
 echo '############################'
