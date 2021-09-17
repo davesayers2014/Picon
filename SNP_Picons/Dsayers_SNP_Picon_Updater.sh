@@ -31,14 +31,14 @@ echo $LINE
 #Download and unpack Standard SNP Picons
 echo 'STANDARD SNP PICONS DOWNLOADING - PLEASE WAIT'
 echo $LINE
-opkg install "https://github.com/picons/picons/releases/download/2021-06-11--21-55-37/enigma2-plugin-picons-snp-full.100x60-86x46.light.on.transparent_2021-06-11--21-55-37_all.ipk" --add-dest hdd:/media/hdd -d hdd --force-depends >/dev/null 2>&1
+opkg install "https://github.com/picons/picons/releases/download/2021-09-09--22-49-10/enigma2-plugin-picons-snp-full.100x60-86x46.light.on.transparent_2021-09-09--22-49-10_all.ipk" --add-dest hdd:/media/hdd -d hdd --force-depends >/dev/null 2>&1
 echo $LINE
 echo $LINE
 
 #Download and unpack SkyQ SNP Picons
 echo 'SkyQ SNP PICONS DOWNLOADING - PLEASE WAIT'
 echo $LINE
-opkg install "https://github.com/picons/picons/releases/download/2021-06-11--21-55-37/enigma2-plugin-picons-snp-full.220x132-190x102.light.on.transparent_2021-06-11--21-55-37_all.ipk" --add-dest hdd:/media/hdd/SkyQ -d hdd --force-depends >/dev/null 2>&1
+opkg install "https://github.com/picons/picons/releases/download/2021-09-09--22-49-10/enigma2-plugin-picons-snp-full.220x132-190x102.light.on.transparent_2021-09-09--22-49-10_all.ipk" --add-dest hdd:/media/hdd/SkyQ -d hdd --force-depends >/dev/null 2>&1
 rm -rv /media/hdd/var >/dev/null 2>&1
 sleep 4
 echo $LINE
